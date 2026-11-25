@@ -1,68 +1,29 @@
 # Hi, I'm Anshu Raj
 
-Final-year Electronics & Communication Engineering (ECE) graduate with a passion for building practical technology that combines hardware and software.
+Electronics and Communication Engineering graduate focused on **embedded firmware**. I write C for the ESP32 using ESP-IDF and FreeRTOS, and I like the parts of the job where software meets real hardware: interrupts, concurrency, and debugging from logs.
 
-I'm currently exploring **Embedded Systems, IoT, ESP32, C/C++, Python, and Full-Stack Web Development**, while continuously improving my problem-solving and software engineering skills.
+Open to embedded firmware roles in Bengaluru.
 
-##  What I'm Working On
+## What I work with
 
-*  Automated Railway Gate Control System using ESP32
-*  Full-stack web applications
-*  Data-driven projects with Python
-*  Preparing for a career in Embedded Systems and Software Engineering
+- **Languages:** C, Python
+- **Firmware:** ESP-IDF, FreeRTOS (tasks, queues, mutexes, task notifications, core pinning)
+- **Peripherals and protocols:** GPIO, interrupts, UART, I2C, SPI, PWM, ADC
+- **Tools:** idf.py / CMake, GCC, Git, Linux, VS Code
 
-## Tech Stack
+## Featured project
 
-**Languages**
+**[esp32-telemetry-capstone](https://github.com/birdonahotdog/esp32-telemetry-capstone)**: dual-core ESP32 firmware where a UART task on core 0 feeds a lock-free SPSC ring buffer, drained by an LCD task on core 1, with a mutex-protected I2C display and an interrupt-driven, debounced button. Built from custom ring-buffer, I2C LCD and GPIO drivers, each as its own ESP-IDF component.
 
-* C
-* C++
-* Python
-* JavaScript
-* HTML
-* CSS
+## Also built
 
-**Frameworks & Tools**
+- **Dual-track railway crossing controller:** event-driven ESP32 firmware that runs servo gates for two independent train directions, with IR + vibration sensor validation to suppress false triggers.
 
-* React
-* Node.js
-* Express.js
-* Git & GitHub
-* MongoDB
-* ESP32
-* Arduino IDE
+## Currently
 
-##  Featured Projects
+Going deeper on FreeRTOS and low-level C, and writing up my projects with clear READMEs.
 
-### Automated Railway Gate Control System
+## Contact
 
-An ESP32-based railway crossing automation system featuring train detection, automatic gate control, safety mechanisms, and real-world inspired railway logic.
-
-### ShopEase
-
-A full-stack e-commerce application built with React, Node.js, Express, and MongoDB.
-
-### Weather Dashboard
-
-A responsive weather application that fetches real-time weather information using the OpenWeather API.
-
-### Portfolio Website
-
-A personal portfolio showcasing my projects, technical skills, and learning journey.
-
-## Currently Learning
-
-* Embedded Systems
-* Microcontrollers
-* IoT System Design
-* Data Structures & Algorithms
-* System Design Fundamentals
-
-## Connect With Me
-
-* LinkedIn: https://www.linkedin.com/in/anshuraj16/
-* GitHub: https://github.com/birdonahotdog
-
----
-
-*I enjoy building projects that solve real-world problems while helping me understand how technology works under the hood.*
+- Email: [anshuraj0601@gmail.com](mailto:anshuraj0601@gmail.com)
+- LinkedIn: [linkedin.com/in/AnshuRaj16](https://linkedin.com/in/AnshuRaj16)
